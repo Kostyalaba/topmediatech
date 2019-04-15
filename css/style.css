@@ -1,0 +1,553 @@
+body {
+    background-color: #1b1616;
+}
+
+/*Header*/
+
+.logo-img:before {
+    content: '';
+    height: 25px;
+    width: 1px;
+    display: inline-block;
+    background-color: #c0966f;
+    margin-right: 3px;
+    position: relative;
+    top: 8px;
+}
+
+.logo-img:hover {
+    text-decoration: none;
+}
+
+.main-content nav {
+    padding-top: 30px;
+}
+
+.nav-item a {
+    color: #c0966f;
+    font-family: 'HelveticaNeueCyr-Light', sans-serif;
+}
+
+.nav-link:hover {
+    color: #684110;
+}
+
+button:focus {
+    outline: none;
+}
+
+/*Block top*/
+
+.block-top {
+    color: #c0966f;
+    background-image: url("../img/content/waves_header.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.heading-text {
+    padding-left: 15px;
+    font-family: "HelveticaNeueCyr-Light", sans-serif;
+    font-size: 20px;
+}
+
+.heading-text h1 {
+    font-family: "HelveticaNeueCyr-Bold", sans-serif;
+    line-height: 1;
+}
+
+.circle {
+    margin-top: 70px;
+}
+
+.bottom-list {
+    margin-top: 50px;
+    padding-left: 0;
+}
+
+.bottom-list li {
+    color: #c0966f;
+    font-family: "HelveticaNeueCyr-UltraLight", sans-serif;
+    list-style-type: none;
+    border-bottom: 2px solid transparent;
+}
+
+.bottom-list li:hover {
+    border-bottom: 2px solid #c0966f;
+    cursor: pointer;
+}
+
+/*Block "About Us"*/
+
+.block-about {
+    padding-bottom: 50px;
+}
+
+.circle-about img {
+    height: 100%;
+    width: 100%;
+}
+
+.about-text {
+    padding-left: 15px;
+}
+
+.about-text p {
+    font-family: "HelveticaNeueCyr-Roman", sans-serif;
+    font-size: 14px;
+    color: #c0966f;
+}
+
+.card-body {
+    padding: 10px 0;
+    color: #b58d69;
+    font-family: "HelveticaNeueCyr-Roman", sans-serif;
+    font-size: 14px;
+}
+
+.card {
+    background-color: #1b1616;
+    border: none;
+}
+
+/*Button "more"*/
+
+.btn-light {
+    background-color: transparent;
+    border-color: #c0966f;
+    color: #c0966f;
+    font-family: "HelveticaNeueCyr-UltraLight", sans-serif;
+    font-size: 24px;
+}
+
+.btn {
+    padding: 5px 10px;
+    margin-left: 18px;
+}
+
+.btn:hover {
+    background-color: #c0966f;
+    color: #000000;
+    box-shadow: 0 0 20px 3px;
+}
+
+/*Block Brands*/
+
+.block-brands {
+    background-image: url("../img/content/waves.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.brands-heading h2 {
+    font-family: "HelveticaNeueCyr-Bold", sans-serif;
+    font-size: 80px;
+    color: #c0966f;
+    margin-bottom: 20px;
+}
+
+.brands-text p {
+    font-family: "HelveticaNeueCyr-Roman", sans-serif;
+    font-size: 14px;
+    color: #c0966f;
+    margin: 0 auto;
+}
+
+.brands-logos {
+    margin-top: 30px;
+}
+
+.logos-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    left: -20px;
+}
+
+.flex-item {
+    padding: 35px;
+    list-style-type: none;
+}
+
+/*Block Contact Us*/
+
+.block-contact {
+    padding-top: 60px;
+}
+
+.circle-contact img {
+    height: 100%;
+    width: 70%;
+}
+
+.btn-send {
+    padding: 10px 40px;
+    background-color: #c0966f;
+    color: #1b1616;
+    border: 1px solid #c0966f;
+    border-radius: 100px;
+    font-size: 14px;
+    font-family: "HelveticaNeueCyr-Bold", sans-serif;
+    margin-top: 20px;
+}
+
+.btn-send:hover {
+    background-color: #1b1616;
+    color: #c0966f;
+    box-shadow: 0 0 20px 3px;
+}
+
+.form-control:focus {
+    background-color: transparent;
+    border: 2px solid #c0966f;
+    outline: 0;
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    color: #c0966f;
+    opacity: 0.8;
+}
+
+.register_forms.error {
+    border-color: white;
+    opacity: 0.7;
+}
+
+label.error {
+    color: white;
+    opacity: 0.7;
+    font-size: 14px;
+    font-family: "HelveticaNeueCyr-Bold", sans-serif;
+}
+
+.contact-phone-email {
+    font-family: "HelveticaNeueCyr-Bold", sans-serif;
+    font-size: 24px;
+    color: #c0966f;
+    margin-top: 100px;
+}
+
+.contact-phone-email p {
+    margin-bottom: 5px;
+}
+
+/*Footer*/
+
+footer {
+    background-image: url("../img/content/wave_footer.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/*Media queries*/
+
+@media screen and (max-width: 321px) {
+    .heading-text h1 {
+        font-size: 60px;
+    }
+
+    .bottom-list li {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 321px) {
+    .heading-text h1 {
+        font-size: 80px;
+    }
+
+    .bottom-list li {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .brands-text p {
+        width: 300px;
+    }
+
+    .logos-flex {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .brands-text p {
+        width: 500px;
+    }
+
+    .logos-flex {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .circle img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .circle {
+        height: 225px;
+        width: 225px;
+        border-radius: 100%;
+        background-color: #c0966f;
+        margin: 0 auto;
+    }
+
+    .heading-text {
+        padding-top: 40px;
+    }
+
+    .block-about-heading h2 {
+        font-family: "HelveticaNeueCyr-Bold", sans-serif;
+        font-size: 70px;
+        color: #c0966f;
+        padding-top: 60px;
+        text-align: center;
+    }
+
+    .btn {
+        left: 37%;
+        position: relative;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .circle img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .circle {
+        height: 338px;
+        width: 338px;
+        border-radius: 100%;
+        background-color: #c0966f;
+    }
+
+    .heading-text {
+        padding-top: 90px;
+    }
+
+    .block-about-heading h2 {
+        font-family: "HelveticaNeueCyr-Bold", sans-serif;
+        font-size: 153px;
+        color: #c0966f;
+        padding-left: 30px;
+        padding-top: 60px;
+    }
+}
+
+@media screen and (min-width: 1125px) {
+    .circle {
+        height: 550px;
+        width: 550px;
+        border-radius: 100%;
+        background-color: #c0966f;
+    }
+
+    .circle-about {
+        height: 350px;
+        width: 350px;
+        border-radius: 100%;
+        background-color: #c0966f;
+        margin: 0 auto;
+    }
+
+    .block-about-heading h2 {
+        font-family: "HelveticaNeueCyr-Bold", sans-serif;
+        font-size: 153px;
+        color: #c0966f;
+        padding-top: 60px;
+        padding-left: 60px;
+    }
+}
+
+@media screen and (max-width: 1125px) {
+    .text-hide-out {
+        display: none;
+    }
+
+    .circle-about {
+        height: 250px;
+        width: 250px;
+        border-radius: 100%;
+        background-color: #c0966f;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .circle-contact {
+        height: 350px;
+        width: 350px;
+        border-radius: 100%;
+        background-color: #c0966f;
+        position: relative;
+        left: -100px;
+        float: left;
+    }
+
+    .circle-contact img {
+        position: relative;
+        right: -135px;
+        top: -20px;
+    }
+
+    .form-control {
+        width: 100%;
+        display: block;
+        height: calc(1.5em + .75rem + 2px);
+        padding: 30px;
+        font-size: 14px;
+        font-family: "HelveticaNeueCyr-Bold", sans-serif;
+        color: #c0966f;
+        background-color: transparent;
+        background-clip: padding-box;
+        border: 1px solid transparent;
+        border-bottom: 1px solid #c0966f;
+    }
+
+    .contact-heading h2 {
+        font-size: 70px;
+        font-family: "HelveticaNeueCyr-Bold", sans-serif;
+        color: #c0966f;
+        line-height: 0.8;
+        position: relative;
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .contact-heading .word-us {
+        font-size: 200px;
+        font-family: "HelveticaNeueCyr-Bold", sans-serif;
+        color: #c0966f;
+        text-align: center;
+    }
+
+    .contact-heading {
+        position: absolute;
+        left: 32%;
+    }
+
+    .contact-form {
+        position: absolute;
+        left: 67%;
+    }
+
+    .btn-send {
+        position: relative;
+        left: 45%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .circle-contact {
+        height: 250px;
+        width: 250px;
+        border-radius: 100%;
+        background-color: #c0966f;
+        margin: 0 auto;
+    }
+
+    .circle-contact img {
+        position: relative;
+        right: -70px;
+        top: -10px;
+    }
+
+    .contact-heading h2 {
+        font-size: 70px;
+        font-family: "HelveticaNeueCyr-Bold", sans-serif;
+        color: #c0966f;
+        text-align: center;
+    }
+
+    .form-control {
+        width: 100%;
+        display: block;
+        height: calc(1.5em + .75rem + 2px);
+        padding: 30px;
+        font-size: 14px;
+        font-family: "HelveticaNeueCyr-Bold", sans-serif;
+        color: #c0966f;
+        background-color: transparent;
+        background-clip: padding-box;
+        border: 1px solid transparent;
+        border-bottom: 1px solid #c0966f;
+    }
+
+    .btn-send {
+        position: relative;
+        left: 35%;
+        bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 1125px) {
+    .circle-contact {
+        height: 450px;
+        width: 450px;
+        border-radius: 100%;
+        background-color: #c0966f;
+        position: relative;
+        left: -100px;
+        float: left;
+    }
+
+    .circle-contact img {
+        position: relative;
+        right: -135px;
+        top: -20px;
+    }
+
+    .contact-heading .word-us {
+        font-size: 300px;
+        font-family: "HelveticaNeueCyr-Bold", sans-serif;
+        color: #c0966f;
+        text-align: center;
+    }
+
+    .form-control {
+        width: 140%;
+        display: block;
+        height: calc(1.5em + .75rem + 2px);
+        padding: 30px;
+        font-size: 14px;
+        font-family: "HelveticaNeueCyr-Bold", sans-serif;
+        color: #c0966f;
+        background-color: transparent;
+        background-clip: padding-box;
+        border: 1px solid transparent;
+        border-bottom: 1px solid #c0966f;
+    }
+
+    .contact-heading h2 {
+        font-size: 120px;
+        font-family: "HelveticaNeueCyr-Bold", sans-serif;
+        color: #c0966f;
+        line-height: 0.8;
+        position: relative;
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .contact-heading {
+        position: absolute;
+        left: 32%;
+    }
+
+    .contact-form {
+        position: absolute;
+        left: 67%;
+    }
+
+    .btn-send {
+        position: relative;
+        left: 45%;
+    }
+}
